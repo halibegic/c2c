@@ -1,0 +1,16 @@
+extends ../_layout/_main
+
+block variables
+    - var title = 'Katarina Pavlović - Content 2 Consumer'
+    - var name = 'Katarina Pavlović'
+    - var bio = 'Program Director, Prva TV and B92'
+    - var country = 'Srbija'
+    - var desc = 'Katarina Pavlović is the Program Director of two national broadcasters in Serbia, Prva TV and B92, and 6 cable channels owned and operated by Prva. She joined the company in 2006, when Fox Television was launched (now Prva TV). Since 2013 Katarina is responsible for the development of cable channels and multichannel strategy, and in 2017 she became the Program Director of both national channels. With her experience and passion for television, Katarina has significantly contributed to the success of the channels, and strengthening the company’s position as a key player in the market.'
+    - var picture = '1.jpg'
+    - var current = 'speaker-1.html'
+    - var next = 'speaker-2.html'
+    
+block content
+    main.main(data-barba='container' data-barba-namespace='speaker')
+        .animate
+            include ../_layout/_speaker/_speaker

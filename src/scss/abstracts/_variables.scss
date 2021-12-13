@@ -1,0 +1,95 @@
+// Variables
+
+// Color system
+$white:                         #fff !default;
+$gray-100:                      #f8f9fa !default;
+$gray-200:                      #e6e6e6; // #e9ecef !default;
+$gray-300:                      #dee2e6 !default;
+$gray-400:                      #ced4da !default;
+$gray-500:                      #adb5bd !default;
+$gray-600:                      #6c757d !default;
+$gray-700:                      #495057 !default;
+$gray-800:                      #343a40 !default;
+$gray-900:                      #212529 !default;
+$black:                         #000 !default;
+
+$green:                         #5dfc72; // #198754 !default;
+
+$light:                         $gray-200; // $gray-100 !default;
+$dark:                          $black; // $gray-900 !default;
+
+$primary:                       $green; // $blue !default;
+
+// Spacing
+$spacer:                        1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4.5,
+);
+
+// Body
+$body-bg:                       $light; // $white !default;
+$body-color:                    $black; // $gray-900 !default;
+
+// Links
+$link-color:                    $black; // $primary !default;
+$link-decoration:               underline !default;
+$link-shade-percentage:         20% !default;
+$link-hover-color:              $primary; // shift-color($link-color, $link-shade-percentage) !default;
+$link-hover-decoration:         null !default;
+
+// Typography
+$font-family-sans-serif:        'Ginto', sans-serif; // system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-size-base:                1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm:                  $font-size-base * .875 !default;
+$font-size-lg:                  $font-size-base * 1.25; // $font-size-base * 1.25 !default;
+
+$font-weight-lighter:           lighter !default;
+$font-weight-light:             300 !default;
+$font-weight-normal:            400 !default;
+$font-weight-medium:            500 !default;
+$font-weight-bold:              700 !default;
+$font-weight-bolder:            bolder !default;
+
+$h1-font-size:                  $font-size-base * 2.5 !default;
+$h2-font-size:                  $font-size-base * 2 !default;
+$h3-font-size:                  $font-size-base * 1.75 !default;
+$h4-font-size:                  $font-size-base * 1.5 !default;
+$h5-font-size:                  $font-size-base * 1.125 !default;
+$h6-font-size:                  $font-size-base !default;
+
+$display-font-weight:           $font-weight-normal; // 300 !default;
+
+$lead-font-size:                $font-size-base * 1.5625; // $font-size-base * 1.25 !default;
+
+// Navbar
+$navbar-padding-y:              1.5rem; // $spacer * .5 !default;
+$navbar-padding-x:              null !default;
+
+$navbar-nav-link-padding-x:     1.25rem; // .5rem !default;
+
+$navbar-toggler-padding-x:      0; // .75rem !default;
+$navbar-toggler-focus-width:    0; // $btn-focus-width !default;
+
+$navbar-light-color:            $black; // rgba($black, .55) !default;
+$navbar-light-hover-color:      rgba($black, .7) !default;
+$navbar-light-active-color:     $primary; // rgba($black, .9) !default;
+
+// Carousel
+$carousel-indicator-width:      0.75rem; // 30px !default;
+$carousel-indicator-height:     0.75rem; // 3px !default;
+$carousel-indicator-spacer:     1rem; // 3px !default;
+$carousel-indicator-opacity:    1; // .5 !default;
+
+// Forms
+$input-btn-focus-box-shadow:    none; // 0 0 $input-btn-focus-blur $input-btn-focus-width $input-btn-focus-color !default;
+
+$input-placeholder-color:       $black; // $gray-600 !default;
+
+// Utilities
+$utilities: ();

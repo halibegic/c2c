@@ -1,0 +1,9 @@
+.carousel-indicators {
+    .indicator {
+        transition: all 0.25s ease-in-out !important;
+
+        &.active {
+            background-color: transparent !important;
+        }
+    }
+}

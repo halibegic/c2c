@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Ginto';
+    src: url('../font/ginto/ginto-light.ttf');
+    font-weight: $font-weight-light;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto';
+    src: url('../font/ginto/ginto-light-italic.ttf');
+    font-weight: $font-weight-light;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto';
+    src: url('../font/ginto/ginto-regular.ttf');
+    font-weight: $font-weight-normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto';
+    src: url('../font/ginto/ginto-regular-italic.ttf');
+    font-weight: $font-weight-normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto';
+    src: url('../font/ginto/ginto-medium.ttf');
+    font-weight: $font-weight-medium;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto';
+    src: url('../font/ginto/ginto-medium-italic.ttf');
+    font-weight: $font-weight-medium;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto';
+    src: url('../font/ginto/ginto-bold.ttf');
+    font-weight: $font-weight-bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto';
+    src: url('../font/ginto/ginto-bold-italic.ttf');
+    font-weight: $font-weight-bold;
+    font-style: italic;
+    font-display: swap;
+}

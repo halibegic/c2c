@@ -1,0 +1,43 @@
+{
+    "name": "c2c",
+    "version": "1.0.1",
+    "description": "C2C is the most important three-day event in the CEE region.",
+    "main": "gulpfile.js",
+    "scripts": {
+        "start": "gulp",
+        "dev": "gulp serve",
+        "prod": "cross-env NODE_ENV=prod gulp"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/halibegic/c2c.git"
+    },
+    "keywords": [
+        "bootstrap",
+        "boilerplate",
+        "boilerplate-template",
+        "gulp",
+        "sass"
+    ],
+    "author": "halibegic",
+    "license": "GPL",
+    "bugs": {
+        "url": "https://github.com/halibegic/c2c/issues"
+    },
+    "homepage": "https://github.com/halibegic/c2c#readme",
+    "devDependencies": {
+        "browser-sync": "^2.27.5",
+        "cross-env": "^7.0.3",
+        "gulp": "^4.0.2",
+        "gulp-clean": "^0.4.0",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-if": "^3.0.0",
+        "gulp-plumber": "^1.2.1",
+        "gulp-pug": "^5.0.0",
+        "gulp-sass": "^5.0.0",
+        "gulp-sourcemaps": "^3.0.0",
+        "gulp-uglify": "^3.0.2",
+        "node-sass": "^6.0.1"
+    }
+}

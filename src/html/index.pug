@@ -1,0 +1,39 @@
+extends _layout/_main
+
+block variables
+
+block content
+    main.main(data-barba='container' data-barba-namespace='home')
+        .animate
+            // Header
+            include _layout/_header
+            
+            // Intro
+            include _partial/_home/_intro
+
+            // Speakers
+            include _partial/_home/_speakers
+
+            // Marquee
+            include _partial/_home/_marquee
+
+            // Themes
+            include _partial/_home/_themes
+            
+            // Program
+            include _partial/_home/_program
+            
+            // Banner
+            include _partial/_home/_banner
+
+            // Contact
+            include _partial/_home/_contact
+            
+            // About
+            include _partial/_home/_about
+
+            // Partners
+            include _partial/_home/_partners
+
+            // Footer
+            include _layout/_footer

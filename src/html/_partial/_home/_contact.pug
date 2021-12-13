@@ -1,0 +1,17 @@
+section.pt-6.pb-6#contact
+    .container
+        h1.display-5.mb-6 Contact us
+        .row
+            .col-12.col-lg-6.offset-lg-3
+                form#contact-form(name='contact-form')
+                    .mb-3
+                        input.form-control.form-control-lg.border-0.border-bottom.border-dark.rounded-0(type='text' name='name' placeholder='What is your name?' required='required')
+                    .mb-3
+                        input.form-control.form-control-lg.border-0.border-bottom.border-dark.rounded-0(type='text' name='company' placeholder='Company' required='required')
+                    .mb-3
+                        input.form-control.form-control-lg.border-0.border-bottom.border-dark.rounded-0(type='email' name='email' placeholder='Your email' required='required')
+                    .mb-5
+                        textarea.form-control.form-control-lg.border-0.border-bottom.border-dark.rounded-0(name='message' rows='1' placeholder='Type a mesage' required='required')
+                    .mb-0.text-center
+                        button.btn.btn-dark.btn-lg.rounded-0(type='submit') Send
+                    #status.mt-5.fs-5.text-center(style='display: none')

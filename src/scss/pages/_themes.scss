@@ -1,0 +1,8 @@
+@include media-breakpoint-up(lg) {
+    #themes {
+        display: flex;
+        align-items: center;
+        padding-top: 12rem !important;
+        padding-bottom: 12rem !important;
+    }
+}

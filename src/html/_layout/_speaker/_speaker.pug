@@ -1,0 +1,31 @@
+section#speaker
+    .row.g-0.h-100
+        .col-12.col-lg-6.bg-circles
+            .position-relative.mx-lg-6.p-4.p-lg-6
+                h1.display-5.mb-2.fw-bold #{name}
+                p.mb-0.fw-light #{bio}
+                p.mb-4.fw-light #{country}
+                .d-lg-none.position-relative.mb-4
+                    img.img-fluid(src=site+'/img/speaker/picture/'+picture alt='')
+                    a.btn.btn-clean.position-absolute.top-0.end-0.m-1(href=site+'/index.html#speakers' title='Close')
+                        img(src=site+'/img/shape/close.svg' alt='' width='20' height='20')
+                p.mb-4.fs-lg-4 #{desc}
+                .row
+                    .col-12.col-lg-6.mb-4.mb-lg-0
+                        p.mb-0.fw-light
+                            | Share: 
+                            a(href='https://twitter.com/intent/tweet?url='+site+'/speaker/'+current+'&text='+name+'&hashtags=C2C,Content2Consumer,2021' title='Share on Twitter' target='_blank') Twitter
+                            span.me-1 ,
+                            a(href='https://www.linkedin.com/shareArticle?mini=true&url='+site+'/speaker/'+current+'&title='+name+'&summary=Content2Consumer' title='Linkedin' target='_blank') Linkedin
+                            span.me-1 ,
+                            a(href='mailto:?Subject=Content2Consumer '+name+'&body='+site+'/speaker/'+current title='Email' target='_blank') Email
+                    .col-12.col-lg-6
+                        .d-flex.align-items-center.justify-content-end
+                            p.mb-0.fw-bold.text-uppercase
+                                a.text-decoration-none.active(href=site+'/speaker/'+next)
+                                    | Next Speaker
+                                    img.arrow(src=site+'/img/shape/arrow.svg' alt='')
+
+        .col-12.col-lg-6.d-none.d-lg-block.position-relative(style='background-image: url('+site+'/img/speaker/picture/'+picture+'); background-size: cover')
+            a.btn.btn-clean.position-absolute.top-0.end-0.m-4(href=site+'/index.html#speakers' title='Close')
+                img(src=site+'/img/shape/close.svg' alt='' width='30' height='30')

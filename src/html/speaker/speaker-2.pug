@@ -1,0 +1,18 @@
+extends ../_layout/_main
+
+block variables
+    - var title = 'Speaker - Content 2 Consumer'
+    - var title = 'Anette Schaefer'
+    - var name = 'Anette Schaefer'
+    - var bio = 'Independent Consultant and Founder, BIG Picture'
+    - var country = 'Germany'
+    - var desc = 'Anette Schaefer, is an independent consultant and founder of BIG Picture a digital media analyst and advisory firm researching multi-platform distribution and its impacts on the changing nature of media, communications, and technology businesses. In this role, Anette works as an interim manager and consultant for international media and telecom companies, investment firms, technology, and strategy consultancies as well as ICT industry analyst firms. Also supporting the growth of European start-ups through collaborations with corporates to drive digital transformation. In 2019, she was nominated by the World Economic Forum as an expert for the Industry 4.0, Media, and Entertainment group.'
+    - var picture = '2.jpg'
+    - var current = 'speaker-2.html'
+    - var next = 'speaker-1.html'
+
+block content
+    main.main(data-barba='container' data-barba-namespace='speaker')
+        .animate
+            include ../_layout/_speaker/_speaker
+

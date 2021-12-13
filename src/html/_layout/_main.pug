@@ -1,0 +1,31 @@
+block variables
+//- var site = 'https://halibegic.info/dist'
+
+doctype html
+html(class=htmlClass lang='en')
+    head
+        title=title||'Content 2 Consumer'
+        meta(charset='utf-8')
+        meta(name='robots' content='index, follow')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no')
+        meta(http-equiv='x-ua-compatible' content='ie=edge')
+        meta(name='description' content=description||'For two days in Decembre, C2C attendees connected with some of Balkan’s leading designers, artists, technologists, and researchers')
+        meta(itemprop='image' content=site+'/img/brand/cover.jpg')
+        meta(name='og:image' content=site+'/img/brand/cover.jpg')
+        meta(name='twitter:image' content=site+'/img/brand/cover.jpg')
+        link(rel='apple-touch-icon' sizes='180x180' href=site+'/apple-touch-icon.png')
+        link(rel='icon' type='image/png' sizes='32x32' href=site+'/favicon-32x32.png')
+        link(rel='icon' type='image/png' sizes='16x16' href=site+'/favicon-16x16.png')
+        link(rel='manifest' href=site+'/site.webmanifest')
+        link(rel='mask-icon' href=site+'/safari-pinned-tab.svg' color='#5dfc72')
+        meta(name='msapplication-TileColor' content='#00a300')
+        meta(name='theme-color' content='#ffffff')
+        link(rel='icon' href=site+'/favicon.ico')
+        link(rel='stylesheet' href=site+'/css/main.css?v=1.0.30' async defer)
+        block style
+        body(class=bodyClass data-barba='wrapper')
+            .wrapper
+                include ../_partial/_loader
+                block content
+        script(src=site+'/js/main.js?v=1.0.30')
+        block script
