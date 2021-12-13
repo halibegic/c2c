@@ -69,7 +69,7 @@ function html() {
             pug({
                 pretty: true,
                 data: {
-                    site: prod ? 'https://content2consumer.com' : 'http://localhost:3000',
+                    site: prod ? 'https://halibegic.github.io/c2c-mockup' : 'http://localhost:3000',
                 },
             })
         )
